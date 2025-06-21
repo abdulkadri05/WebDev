@@ -1,0 +1,57 @@
+body {
+    background: url("../candyCrushGame/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    z-index: 10;
+}
+
+#score {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgba(17, 243, 17, 0.5);
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+#moves {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f7f7f7;
+    background-color: rgba(236, 22, 201, 0.5);
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-align: right;
+    margin-right: 25px;
+}
+
+#board {
+    width: 450px;
+    height: 490px;
+    background-color: lightblue;
+    border: 5px solid #6b6b6b;
+    border-radius: 20px;
+    margin: 100px auto 0 auto; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#board img {
+    width: 50px;
+    height: 50px;
+}
